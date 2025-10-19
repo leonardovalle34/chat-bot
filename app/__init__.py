@@ -1,7 +1,11 @@
 from flask import Flask  # Flask creates server
-from flask_cors import CORS  # CORS handles Cross-Origin Resource Sharing
+from flask_cors import (
+    CORS,
+)  # CORS handles Cross-Origin Resource Sharing
 import os  # Operating system interactions
-from dotenv import load_dotenv  # Load environment variables from .env file
+from dotenv import (
+    load_dotenv,
+)  # Load environment variables from .env file
 
 load_dotenv()
 
